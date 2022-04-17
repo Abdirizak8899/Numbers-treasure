@@ -64,7 +64,7 @@ while con == False:
 				print('No contact found yet ! ')
 				print()
 	if User == '0':
-		check = input('Are you sure ? [yes/no')
+		check = input('Are you sure ? [yes/no]')
 		if check == 'yes' or check == 'Yes':
 			con = True
 			print("Thank for you using this program mr/mss {} ".format(Name))
